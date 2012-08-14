@@ -113,7 +113,7 @@ public class AudioPlayer extends Thread {
 	}
 	
 	public void prepareMediaPlayer() {
-		FileUtils.copyFile(srcFile, destFile);
+		FileUtils.copyFile(srcFile, destFile); 
 	}
 	
 }
