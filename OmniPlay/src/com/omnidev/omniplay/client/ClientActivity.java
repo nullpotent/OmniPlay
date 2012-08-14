@@ -67,7 +67,7 @@ public class ClientActivity extends Activity {
 	};
 
 	/**
-	 * Broadcast recevier - registers all discovered devices
+	 * Broadcast receiver - registers all discovered devices
 	 */
 	private final BroadcastReceiver	discoveryService = new BroadcastReceiver () {	
 		private static final String TAG = "BroadcastReceiver.Discovery";
